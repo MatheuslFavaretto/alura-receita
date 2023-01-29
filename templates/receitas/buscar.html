@@ -9,7 +9,6 @@
 
     {% include 'partials/_busca.html' %}
 
-
     {% include 'partials/_menu.html' %}
 
     <!-- ##### Best Receipe Area Start ##### -->
@@ -26,7 +25,7 @@
                         {% else %}
                             <img src="{{ receita.foto_receita.url }}" alt="">
                         {% endif %}
-                        <div class="receipe-content">
+                            <div class="receipe-content">
                             <a href="{% url 'receita' receita.id %}">
                                 <h5>{{ receita.nome_receita }}</h5>
                             </a>
@@ -35,8 +34,9 @@
                 </div>
                 {% endfor %}
                 {% else %}
-                <div class="col-12 col-sm-6 col-lg-4"></div>
-                    <p>Receita não encontrada!</p>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <p>Receita não encontrada</p>
+                </div>
                 {% endif %}
             </div>
         </div>

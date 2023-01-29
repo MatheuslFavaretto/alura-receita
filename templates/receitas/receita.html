@@ -9,10 +9,9 @@
 
     {% include 'partials/_busca.html' %}
 
-
     {% include 'partials/_menu.html' %}
 
-        <!-- Receipe Post Search -->
+        <!-- Receipe Post Search 
         <div class="receipe-post-search mb-80">
             <div class="container">
                 <form action="#" method="post">
@@ -30,14 +29,14 @@
                     </div>
                 </form>
             </div>
-        </div>
+        </div> -->
 
         <!-- Receipe Slider -->
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="receipe-slider owl-carousel">
-                        {% if receita.foto_receita == '' %}   
+                        {% if receita.foto_receita == '' %}
                             <img src="{% static 'img/bg-img/tomate_banner.jpg' %}">
                         {% else %}
                             <img src="{{ receita.foto_receita.url }}" alt="">
@@ -85,9 +84,6 @@
                     </div>
                 </div>
                 <!-- Ingredientes -->
-            </div>
-        </div>
-    </div>
 
     {% include 'partials/_footer.html' %}
 {% endblock %}

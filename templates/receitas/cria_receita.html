@@ -27,7 +27,7 @@
            <p>Todos os campos são obrigatórios</p>
                <div class="contact-form-area">
                    <form action="{% url 'cria_receita' %}" method="post" enctype="multipart/form-data">
-                           {% csrf_token %}
+                        {% csrf_token %}
                        <div class="row">
                            <div class="col-12 col-lg-12">
                                <label for="nome_receita"><b>Título da receita</b></label>
