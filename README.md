@@ -5,7 +5,7 @@
 
 # Sobre o projeto
 
-Criar uma web-app de receitas, onde é capaz de se registrar, criar receitas, visualizar receitas, atualizar e exclui.
+Criar uma web-app de receitas, onde é capaz de se registrar, criar receitas, visualizar receitas, atualizar, excluir e validar as autenticaçoes do usuarios criados.
 
 # Como executá-lo?
 
