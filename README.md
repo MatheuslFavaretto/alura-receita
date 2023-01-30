@@ -19,12 +19,11 @@ Ative seu ambiente virtual com o seguinte comando(linux):source venv/bin/activat
 Instale o Django nesse ambiente virtualizado:pip install django
 
 ```
+```
 pip install -r requirements.txt
+
 ```
 Apos instalar as dependências iniciar o ambiente virtual.
-
-
-```
 
 Apos isso ja esta pronto apara executar o servidor!
 
